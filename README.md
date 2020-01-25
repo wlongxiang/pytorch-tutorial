@@ -2,7 +2,9 @@
 
 --------------------------------------------------------------------------------
 
-This repository provides tutorial code for deep learning researchers to learn [PyTorch](https://github.com/pytorch/pytorch). In the tutorial, most of the models were implemented with less than 30 lines of code. Before starting this tutorial, it is recommended to finish [Official Pytorch Tutorial](http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html).
+This repository provides tutorial code for deep learning researchers to learn [PyTorch](https://github.com/pytorch/pytorch).
+In the tutorial, most of the models were implemented with less than 30 lines of code.
+Before starting this tutorial, it is recommended to finish [Official Pytorch Tutorial](http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html).
 
 
 <br/>
@@ -32,21 +34,15 @@ This repository provides tutorial code for deep learning researchers to learn [P
 * [TensorBoard in PyTorch](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/04-utils/tensorboard)
 
 
-
-<br/>
-
-## Getting Started
-```bash
-$ git clone https://github.com/yunjey/pytorch-tutorial.git
-$ cd pytorch-tutorial/tutorials/PATH_TO_PROJECT
-$ python main.py
-```
-
-<br/>
-
 ## Dependencies
-* [Python 2.7 or 3.5+](https://www.continuum.io/downloads)
-* [PyTorch 0.4.0+](http://pytorch.org/)
+
+```bash
+conda env -n pytorch python=3.6
+
+conda activate pytorch
+
+pip install -r requirements.txt
+```
 
 
 
@@ -54,4 +50,6 @@ $ python main.py
 
 
 ## Author
-Yunjey Choi/ [@yunjey](https://github.com/yunjey)
+Benjamin Wang [@wlongxiang](https://github.com/wlongxiang)
+
+Forked from Yunjey Choi/ [@yunjey](https://github.com/yunjey)
