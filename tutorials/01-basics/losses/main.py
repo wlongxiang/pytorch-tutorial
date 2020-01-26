@@ -4,6 +4,9 @@ from torch import nn
 # set seed to preserve reproducibility
 torch.manual_seed(0)
 
+# ================================================================== #
+#                        1. L1 loss                                  #
+# ================================================================== #
 # L1 loss, please read the official doc: https://pytorch.org/docs/stable/nn.html#l1loss
 
 # L1 loss is calculated as the mean of sum of absolute difference
@@ -16,7 +19,10 @@ y = torch.tensor([[0, 2], [1, 3]]).float()
 loss_output = l1loss(x, y)
 print("the L1 loss is: ", loss_output.item())
 
-# cross entropy loss
+# ================================================================== #
+#                        2. cross entropy loss                       #
+# ================================================================== #
+
 cross_entropy_loss = nn.CrossEntropyLoss()
 
 # what is logits anyway?

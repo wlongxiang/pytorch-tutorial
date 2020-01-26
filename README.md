@@ -15,6 +15,7 @@ Before starting this tutorial, it is recommended to finish [Official Pytorch Tut
 
 #### 1. Basics
 * [PyTorch Basics](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/01-basics/pytorch_basics/main.py)
+* [PyTorch Losses](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/01-basics/losses/main.py)
 * [Linear Regression](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/01-basics/linear_regression/main.py#L22-L23)
 * [Logistic Regression](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/01-basics/logistic_regression/main.py#L33-L34)
 * [Feedforward Neural Network](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/01-basics/feedforward_neural_network/main.py#L37-L49)
